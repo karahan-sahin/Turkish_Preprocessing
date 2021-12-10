@@ -39,7 +39,6 @@ iş iç çık
 karşı karşı gel
 devam e[td]
 el e[td]
-al pr
 üzer gi[td]
 hesaba kat
 rahat bir nefes al
@@ -58,7 +57,6 @@ yatırım yap
 yardımcı ol
 kayt geç
 yargı ön çıkar
-duy ihtiyaç
 belli e[td]
 sahip ol
 orta koy
@@ -75,9 +73,7 @@ bata[kğ] sürükle
 masa otur
 yetki ver
 meşgul e[td]
-yap iş
 yatırım yap
-eş ol
 moral depola
 etki yap
 aday gösteril
@@ -106,7 +102,7 @@ boyundurlu[kğ] alt giril
 kısmet ol
 tavsiye e[td]
 kahkaha patla
-sa kal
+sağ kal
 yap zikir
 orta kaldır
 ithaf e[td]
@@ -116,15 +112,13 @@ iş yap
 satış çıkart
 yüz gör
 alet e[td]
-ol ver
 yön ver
 şeref duy
 slogan at
 hizmet e[td]
 tahmin e[td]
 ip çek
-vasıl ol
-hal gelmiş
+vesile ol
 iddia e[td]
 mahkeme ön çıkar
 hayat bul
@@ -133,25 +127,23 @@ iddia e[td]
 taşı değer
 iftar e[td]
 çiğ çiğ yenil
-ata yap
+atak yap
 denetim bulun
-verebil emir
+emir ever
 tuzak düş
 tanık ol
-ara dur
 yasa çiğne
 Resim çek
 taraf tut
 etki alt kal
-izn veril
+izn ver
 kavga ver
-kolay kaç
+kolaya kaç
 tertip e[td]
 suç işleyen
 ameliyat ol
 mey verebil
 meydan gelecek
-el alın
 alt üst e[td]
 at adımlar
 yuva yık
@@ -168,12 +160,11 @@ ceza kesil
 temsil e[td]
 defter sil
 ilgi gör
-kavga li ol
-sonuç alına
-ver brifing
+kavgalı ol
+sonuç al
 çağrı bulun
 devam e[td]
-sık dur
+sıkı dur
 müdahele e[td]
 ayak kaldırdıy
 delil topluyo
@@ -182,41 +173,35 @@ geri çevril
 geri adım atıl
 maskar ol
 şikayet e[td]
-zem oturt
-aç yarayı
 zor bırak
-al tav
+tavır al
 telefon e[td]
 panik kap
 yardım yap
-san baş git
-panik kapıl
+pani[kğ] kapıl
 meydan oku
-yer getiril
+yer getir
 adam yarala
 konuk e[td]
 ilgi çek
 gel akla
 tamir e[td]
-ev kıl i
 göz ön alınır
 yer tut
-al li ol
 tasarruf yap
 Kusur bak
 kavga e[td]
 dava e[td]
 göz boya
-Karşım çık
-Gözalt alın
+karşı çık
+gözalt alın
 taklit e[td]
 kara kara düşün
 diyalog kur
 hassasiyet göster
-Sipariş e[td]
-harca bulun
-çaba gösteril
-çalış yapılabil
+sipariş e[td]
+harcama bulun
+çaba göster
 bilgi al
 eğitim gör
 hareket e[td]
@@ -235,7 +220,7 @@ eğitim geç
 adapte e[td]
 tahriş e[td]
 göster tepki
-dava açılab
+dava aç
 teklif e[td]
 tedirginlik duy
 başka göz bak
@@ -246,8 +231,8 @@ kulak arka e[td]
 işlem yaptık
 ver açık
 üzer yat
-el uza
-suçl ol
+el uzan
+suçlu ol
 değişiklik yap
 meşhur ol
 manşet yap
@@ -256,7 +241,6 @@ karşı karşı ol
 kabul e[td]
 Heba e[td]
 destek ver
-ak tak
 ihanet e[td]
 sersefil ol
 kaygı duy
@@ -265,12 +249,12 @@ ilav e[td]
 bırak bir yan
 emanet e[td]
 ortalı[kğ] karış
-ih e[td]
+ihbar e[td]
 savaş aç
 harca yap
 angaje e[td]
-göster performans
-borç alın
+performans göster
+borç al
 kabak tat ver
 girişim yap
 anlaşmazlık düş
@@ -282,23 +266,20 @@ vaat bulun
 konu e[td]
 orta kal
 göz yum
-ver ceza
-verebilecek emir
+ceza ver
 gurur duyu
-hata işleyebil
-şek sok
+hata işle
+şekl sok
 günde geliş
-yap itiraz
-yap başvuru
 ünvan taşı
 çek yap
 şahitlik yap
-hayal kırıklık uğray
+hayal kırıklık uğra
 iç içe yaşa
 çığır aç
 kendileri geç
 iftihar e[td]
-forma ge
+forma gir
 vicdan sızla
 vakit bula
 günde gel
@@ -307,13 +288,12 @@ toprak ver
 hoşuna git
 şans ara
 sorunu çöz
-iki böl
-al i karar
+ikiye böl
 sorun e[td]
-mazur göreceğiniz
+mazur gör
 karşı koyunca
 not ver
-ağız tad bilmey
+ağız tad bil
 üst alın
 silah alt alın
 mütalaam ver
@@ -321,11 +301,10 @@ tespit e[td]
 işbirliği yap
 koy koşul
 uygun bul
-sahip çıkabilse i
 eleştiri yap
 tecrübe kazan
 mücadele verilecek
-özür Dil
+özür dile
 sorun çıkar
 haset duy
 kifayet e[td]
@@ -348,7 +327,6 @@ altın tepsi sunu
 güven duyula
 ilgi bulun
 yol açacağ
-zorunlu k
 hizmet ver
 istismar e[td]
 el düş
@@ -403,7 +381,7 @@ devre girer
 alkış tut
 tat e[td]
 infilak e[td]
-gözön bulundurul
+göz önü bulun
 yap uygula
 yap araştır
 rıza göster
@@ -423,7 +401,6 @@ tahammül e[td]
 ortak ol
 irad e[td]
 üzer durul
-ayak f
 referans ol
 çabuk ol
 zem hazırlan
@@ -436,7 +413,6 @@ ihlal e[td]
 ekmek yağ sür
 ad üfle
 gel giden ara
-çek git i
 öncü ol
 tedbir al
 ön geç
@@ -459,14 +435,12 @@ mesaj ver
 sağla al
 elele ver
 delik deşik e[td]
-gök zembil i
 intihar e[td]
 hayat geçir
 yol değiştir
 raiting yapı
 hayret düşür
 ara gir
-zan z e[td]
 göz ol
 yol e[td]
 esas alın
@@ -532,7 +506,6 @@ suç işliyor
 tehdit al
 hak kazan
 masraf çıkar
-satın al i
 spor yap
 kol sıva
 nokta koy
@@ -593,7 +566,6 @@ rol al
 baş geç
 yap yatırım
 bozum olduğunuz
-izin ver i
 göz dik
 organiz e[td]
 yuh çek
@@ -635,7 +607,6 @@ iş yapamı
 jest yap
 baz al
 adam öl
-tepki göster i
 not e[td]
 kabul e[td]
 infial yarat
@@ -669,7 +640,6 @@ orta dök
 işlem yapılı
 çağrı yap
 maruz bırakıl
-izin al i
 ikna e[td]
 müsaade e[td]
 parantez aç
@@ -680,9 +650,7 @@ iman e[td]
 ge ver
 neşter vur
 yer gök sığdırıla
-uyarı yap i
 tahsil e[td]
-bir ara gel i
 al pay
 saygı göster
 tahvil e[td]
@@ -698,7 +666,6 @@ gayret göster
 merak uyan
 ilişki gir
 idrak e[td]
-cevap verilmeli i
 göz göre göre
 göç e[td]
 muamel gör
@@ -724,14 +691,12 @@ razı ol
 çalış yapı
 ticaret yap
 birifing ver
-bas alt tut i
 dalga geç
 istifade e[td]
 mahkemelik ol
 karar alın
 kahvaltı e[td]
 fizibl bul
-helak ol i
 imkan ol
 İpe un Ser
 kafa tut
@@ -812,12 +777,9 @@ mukayes e[td]
 hareket e[td]
 zarar e[td]
 göz çarp
-baş kavak yel e
 iptal e[td]
 kıstasın ol
 ümit kes
-layık gör i
-baskı çık i
 el geçirmişlerdir
 el ceb at
 alar geçir
@@ -851,7 +813,6 @@ kahkaha at
 feryat e[td]
 masa oturt
 saygı li ol
-orta çıkabilse i
 taciz bulun
 ziyaret bulun
 görüş yap
@@ -871,7 +832,6 @@ tak e[td]
 dol taşı
 iz bırak
 yap hizmet
-ayak bas i
 kısa kesilmes
 etkisiz kıl
 kafa bul
@@ -942,7 +902,6 @@ iltica e[td]
 haklı çıkar
 inşa e[td]
 göz yu
-el çekmeli i
 ibraz e[td]
 casusluk yap
 kira ver
@@ -965,7 +924,6 @@ göç ver
 kesin göz bak
 zam gel
 kapı çal
-orta kal i
 men e[td]
 reh ol
 yer getirildik
@@ -993,7 +951,6 @@ hale gel
 tedavi al
 icap e[td]
 erken kalk yol al
-gerek du i
 dikkat göster
 belli ol
 teslim ol
@@ -1032,7 +989,6 @@ protesto e[td]
 iltifat e[td]
 memnun ol
 yürürlük konul
-mümkün ol i
 git gel
 ifade e[td]
 muhafaza e[td]
@@ -1157,7 +1113,6 @@ artış yap
 türkü oku
 al bilgi
 mahçup ol
-fos çıkar i
 özen göster
 perişan e[td]
 hata e[td]
@@ -1193,7 +1148,6 @@ organiz ola
 karşı çık
 yürek hoplat
 güvence ver
-kavga ver i
 bağ kur
 borçl ol
 siyaset yap
@@ -1266,7 +1220,7 @@ sine çek
 muhtaç ol
 çekici kıl
 yürürlü[kğ] kon
-ilav ol
+ilave ol
 el ayak bağlı ol
 hidayet er
 ortalık dök
@@ -1282,7 +1236,6 @@ oy topla
 başsağlık dile
 zıvana çıkar
 kulp tak
-geri plan i
 kan kaybet
 kendi hal bırak
 oy kul
@@ -1560,7 +1513,6 @@ ses getir
 tehdit sav
 dikkat alın
 razı olmay
-destek verilmeli i
 dizayn e[td]
 ihmal e[td]
 itiraf e[td]
@@ -1796,7 +1748,6 @@ ziyaret e[td]
 aşık ol
 iptal e[td]
 sorun yaşa
-ön geç i
 mümkün ol
 değer gör
 açık çıkar
@@ -1807,7 +1758,6 @@ yen yut lokma ol
 fırsat bul
 analiz yap
 alet e[td]
-göz yum i
 yap sohbet
 göz geçirecek
 düş dava
@@ -1871,7 +1821,6 @@ rahat ol
 öncülük e[td]
 far var
 renci e[td]
-destek ver i
 sebebiyet vermek
 tahmin e[td]
 hak tanı
@@ -1903,7 +1852,6 @@ başarısız ol
 gerek kal
 bin ah işit
 rahat e[td]
-vebali yüklenir i
 ön git
 örnek göster
 tedavi e[td]
@@ -1927,7 +1875,6 @@ yüz bakan yok
 ihbar e[td]
 el çıkar
 yap değerlen
-açıkla yap i
 tedavi uygula
 endişe e[td]
 oruç tutup
@@ -2001,7 +1948,6 @@ ara ver
 kontrol e[td]
 dönüş yap
 manşet süsl
-hal getir i
 zulü e[td]
 haklı çık
 mecbur kal
@@ -2059,10 +2005,7 @@ iade e[td]
 tercih yap
 can kıya
 girişim bulunmay
-sonuç al i
-görüş al i
 mazur gör
-el geçir i
 sertifika ver
 izah e[td]
 ekran getireme
@@ -2107,7 +2050,6 @@ not düşebil
 nokta koy
 tepki göster
 kulak tıkay
-dikkat çekici i
 iptal e[td]
 söz e[td]
 atılım yap
@@ -2118,9 +2060,7 @@ yer ver
 haberdar ol
 ön sür
 rol düştük
-fotoğraf çek i
 ateş aç
-çan o tıkamış
 soruşturma aç
 hareket e[td]
 top kullan
@@ -2173,7 +2113,6 @@ tefrik e[td]
 görev ver
 darbe al
 sergi aç
-orta koy i
 koordine e[td]
 orta kalk
 kapı arala
@@ -2206,12 +2145,10 @@ hız ver
 akıl gel
 rast gelmiş
 manşet at
-ilgi i i
 önayak ol
 ad duy
 örnek ol
 kusur bak
-nefes al i
 el konulu
 düş kırıklı[kğ] uğra
 star ol
@@ -2625,7 +2562,6 @@ vasiyet e[td]
 tespit e[td]
 rekabet e[td]
 had safha ulaş
-büyüklük o kal
 not al
 duy kaygı
 meydan ge[lt]
@@ -2666,7 +2602,6 @@ yap gösteri
 boy göster
 yap anal
 dava aç
-tedbir al i
 geri adım at
 muamele gör
 tehdit oluştur
@@ -2712,7 +2647,6 @@ hareket e[td]
 garanti ver
 bozuntu ver
 vaad tut
-gözalt al i
 dört el sar
 rahatsız ol
 teslim olmas
@@ -2762,7 +2696,7 @@ adam kaçır
 saygısızlık yap
 ip uç kaç
 teşhir e[td]
-kimlik bürün
+kimli[kğ] bürün
 izah e[td]
 tuzak düşme
 burun kıvır
@@ -2826,7 +2760,6 @@ köprü alt çok su ak
 yok e[td]
 suiistimal e[td]
 ifade ver
-çanak tut i
 var e[td]
 baş gel
 satın al

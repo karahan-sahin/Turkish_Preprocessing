@@ -3,8 +3,3 @@ pandas
 numpy
 sklearn
 nltk
-pytest==4.4.1
-pytest-runner==4.4
-wheel
-setuptools
-twine

@@ -79,3 +79,4 @@ def import_corpora(type="tokenizer", data="train"):
                 corpus.append([t.strip('\n') for t in token.split("\t")])
 
     return corpus
+

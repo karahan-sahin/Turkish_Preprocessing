@@ -77,16 +77,18 @@ class SentenceSplitter():
         test_data = re.sub("\n", "\\n", test_data)
 
         preds = []
+
         for i in range(1,counter+1):
+
             punct_env = [match for match in re.findall(".{0,10}<"+str(i)+">.{0,10}",test_data)][0]
             punct_env = re.sub("<"+str(i)+">", ".", punct_env)
             punct_env = re.sub("<\d+>", "!", punct_env)
             idx = "_".join(punct_env.split()).index(".")
-            instance = create_test_instance(punct_env, idx)
+            instance = self.create_test_instance(punct_env, idx)
 
             preds.append(clf.predict(instance))
 
-        for i in range(1,counter):
+        for i in range(1,counter+1):
             if preds[i-1] == 1:
                 test_data = re.sub("<"+str(i)+">", ids[i-1]+"<end>", test_data)
             else:
@@ -97,7 +99,7 @@ class SentenceSplitter():
         return split
 
     def create_dataset(self,type="train"):
-                
+
         train_data = []
 
         if type == "train":
@@ -196,8 +198,6 @@ class SentenceSplitter():
 
         return pd.DataFrame(train_data)
 
-
-
     def model_accuracy(self):
 
         features = {
@@ -219,9 +219,9 @@ class SentenceSplitter():
         y_true = test_data["class"]
 
         return classification_report(y_pred,y_true)
+
+    def create_test_instance(self, punct_env="", idx=10 ,type="test") -> pd.Series:
         
-def create_test_instance(punct_env="", idx=10 ,type="test") -> pd.Series:
-    
         features = {
             "is_capital": 0, # Followed by capitalized letter
             "is_space": 0, # Followed by space

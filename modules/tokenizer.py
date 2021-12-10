@@ -13,7 +13,7 @@ class Tokenizer():
         self.corpus = import_corpora()
         self.abbr_list = import_abbreviations()
         self.dataset = pd.read_csv("Turkish_Preprocessing/source/datasets/tokenizer_train.csv", usecols=range(1,9)).to_numpy()
-        self.clf = None
+        self.clf = LogisticRegression().fit(list(self.dataset[:, :self.dataset.shape[1]-1]), list(self.dataset[:, self.dataset.shape[1]-1]))
         self.test_set = import_corpora(data="test")
         self.MWETokenizer = Normalization().MWE_Normalization
 
@@ -43,13 +43,7 @@ class Tokenizer():
         Hello
         
         """
-        X =  list(self.dataset[:, :self.dataset.shape[1]-1])
-        y =  list(self.dataset[:, self.dataset.shape[1]-1])
-
-        clf = LogisticRegression().fit(X,y)
-
-        self.clf = clf
-        tagged = clf.predict(self.translate(test))
+        tagged = self.clf.predict(self.translate(test))
 
         tokens = []
         idx = 0

@@ -15,6 +15,8 @@ class StopwordRemoval():
     def __init__(self, type="lexicon", top_k=100):
         self.top_k = top_k
         self.type = type
+
+        self.corpus = import_corpora(type="stopwords")
         
         if self.type == "lexicon":
             self.import_stopwords()
@@ -22,7 +24,6 @@ class StopwordRemoval():
         elif type == "custom":
             self.dynamic()
         
-        self.corpus = import_corpora(type="stopwords")
         
     def remove(self,tokenized_text):
         """
@@ -71,4 +72,4 @@ class StopwordRemoval():
 
 
     def import_stopwords(self):
-        self.stopwords = list(open("source/stopwords.txt", 'r', encoding='utf-8').read().split('\n'))
+        self.stopwords = list(open("source/stopwords/stopwords.txt", 'r', encoding='utf-8').read().split('\n'))

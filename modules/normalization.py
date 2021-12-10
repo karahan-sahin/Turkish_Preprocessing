@@ -96,7 +96,7 @@ class Normalization():
         for mwe in self.mwe_list:
             _match = re.findall("".join(map(lambda token: f"{token}[a-zşçığü]*\s", mwe)).strip("\s")+"(?<![\.,\s])", text)
             if _match:
-                text = re.sub("".join(map(lambda token: f"{token}[a-zşçığü]*\s", mwe)).strip("\s")+"(?<![\.,\s])", f"{mwe[0]}_{mwe[1]}", text)
+                text = re.sub("".join(map(lambda token: f"{token}[a-zşçığü]*\s", mwe)).strip("\s")+"(?<![\.,\s])", f"{'_'.join(mwe).strip('_')}", text)
                 text = re.sub(r"\[td\]", "t", text)
                 text = re.sub(r"\[kğ\]", "t", text)
 
