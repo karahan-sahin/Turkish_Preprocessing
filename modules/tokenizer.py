@@ -1,19 +1,20 @@
-from math import isfinite
 from sklearn.linear_model import LogisticRegression, LogisticRegressionCV
+from sklearn.metrics import classification_report
 import pandas as pd
 import re
 import warnings
 from Turkish_Preprocessing.utils_ import import_corpora, import_mwe_list, import_abbreviations
 from Turkish_Preprocessing.modules.normalization import Normalization
 import numpy as np
-import sys
 
 class Tokenizer():
 
     def __init__(self):
         self.corpus = import_corpora()
         self.abbr_list = import_abbreviations()
-        self.dataset = self.create_dataset()
+        self.dataset = pd.read_csv("Turkish_Preprocessing/source/datasets/tokenizer_train.csv", usecols=range(1,9)).to_numpy()
+        self.clf = None
+        self.test_set = import_corpora(data="test")
         self.MWETokenizer = Normalization().MWE_Normalization
 
     # Rule Based Tokenizer
@@ -46,6 +47,8 @@ class Tokenizer():
         y =  list(self.dataset[:, self.dataset.shape[1]-1])
 
         clf = LogisticRegression().fit(X,y)
+
+        self.clf = clf
         tagged = clf.predict(self.translate(test))
 
         tokens = []
@@ -66,13 +69,18 @@ class Tokenizer():
 
         return [token.strip().strip(".").strip(",") for token in tokens if token != " "]
 
-    def create_dataset(self):
+    def create_dataset(self, type = "train"):
     
         # https://aclanthology.org/A00-1012.pdf --> Look at the paper
         
+        if type == "train":
+            corpus = self.corpus
+        else:
+            corpus = self.test_set
+
         train_data = []
 
-        for idx, token in enumerate(self.corpus):
+        for idx, token in enumerate(corpus):
 
             for i, char in enumerate(list(token)):
                 
@@ -100,9 +108,9 @@ class Tokenizer():
                 except:
                     pass
                 
-                if not len(self.corpus) == idx+1:
-                    if not self.corpus[idx+1].isalnum():
-                        if not self.corpus[idx+1].isalnum() and not self.corpus[idx+1] in [".",",","\"","\'"]:
+                if not len(corpus) == idx+1:
+                    if not corpus[idx+1].isalnum():
+                        if not corpus[idx+1].isalnum() and not corpus[idx+1] in [".",",","\"","\'"]:
                                 features["forw_space"] = 1
                         else:
                             features["forw_punct"] = 1
@@ -111,8 +119,8 @@ class Tokenizer():
                     features["prev_space"] = 1
 
                 if i == len(token)-1:
-                    if len(self.corpus) -1 > idx:
-                        if not self.corpus[idx+1] in [".",","]:
+                    if len(corpus) -1 > idx:
+                        if not corpus[idx+1] in [".",","]:
                             features["forw_space"] = 1
                     if not char.isalnum():
                         if token in self.abbr_list:
@@ -173,3 +181,16 @@ class Tokenizer():
             test.append(np.array(list(features.values())))
 
         return test
+
+    def model_accuracy(self):
+    
+        test_data = self.create_dataset(type="test")
+
+        test_data = test_data[:, :test_data.shape[1]-1]
+        y_true =  test_data[:, test_data.shape[1]-1]
+
+        y_pred = []
+        for instance in np.array(test_data):
+            y_pred.append(self.clf.predict(np.array(instance).reshape(1,-1)))
+
+        return classification_report(y_pred,y_true)

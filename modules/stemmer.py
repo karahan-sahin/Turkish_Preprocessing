@@ -1,9 +1,6 @@
-# -*- coding: utf-8 -*-
-
 import re
 import json
-from Turkish_Preprocessing.utils_ import import_corpora
-from collections import OrderedDict
+from Turkish_Preprocessing.utils_ import import_corpora, get_morphology
 
 ###################
 #     STEMMER
@@ -12,28 +9,9 @@ from collections import OrderedDict
 class Stemmer():
 
     def __init__(self):
-        self.morphology = self.get_morphology()
-        self.corpus = import_corpora()
+        self.morphology = get_morphology()
 
     def get_stem(self, token):
-        """
-        Verbal
-        bild-im
-        kalem-im
-        [mod (-DIR)
-        person - number
-        TAM II [idi, imiş, ise, ken)
-        TAM I (-DI, -mIş, -Iyor, -(y)AcAk, -Ar/Ir, -sA, -mAlI, -(y)A, -mAktA)
-        Modality (-(y)Abil, -(y)Adur, -(y)Abil)
-        neg (-mA)
-        voice (-Il, -DIr, -In, -Iş)]
-
-        benim kitabım[dt][iıuü]r$
-
-        Nominal
-        """
-        # Try it with layers !!
-        self.morphology = self.get_morphology()
 
         morph_list = []
         for morph,suffix in self.morphology.items():
@@ -68,8 +46,7 @@ class Stemmer():
                 token = token[:-1] + "k"
         return token, morph_list
 
-    def get_morphology(self):
-        return OrderedDict(json.loads(open("Turkish_Preprocessing/source/morphology.json","r").read()))
+    
     
     def check_if_consonant(self,ch):
         if(ch == 'a' or 

@@ -27,8 +27,7 @@ class NaiveBayesClassifier():
             n_c = y_train.value_counts()[c]
 
             self.prior_proba[c] = log((n_c/n_doc))
-            print()
-
+            
             V = X_train.columns.unique()
             self.vocab_size = len(V)
 
@@ -40,6 +39,7 @@ class NaiveBayesClassifier():
                 nominator = count_w_c + 1
                 denominator = np.sum([c_train[w][[True if i==c else False for i in y_train.to_list()]].sum()+1 for w in V])
                 self.vocab_prob[w][c] = log(nominator/denominator)
+
 
     def predict(self, x_test):
         

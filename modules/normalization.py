@@ -1,6 +1,7 @@
 import re
 from typing import Text
 import warnings
+import unicodedata
 from Turkish_Preprocessing.utils_ import *
 
 ################
@@ -25,7 +26,6 @@ class Normalization():
         self.abbr_dict = import_abbreviations()
         self.lexicon = import_norm_lexicon()
         self.mwe_list = import_mwe_list()
-        self.proper_nouns = import_proper_nouns()
 
     ## Rule-Based Normalization
 
@@ -43,16 +43,6 @@ class Normalization():
         
         return text
 
-    # def custom_lowercase(self, text):
-        
-    #     def lower_nonprop(token):
-    #         term = token.group(0)
-    #         if term not in self.proper_nouns:
-    #             term = term.lower()
-    #         return term
-        
-    #     return re.sub("[A-Za-zÇİğüş]+", lower_nonprop, text)
-
     def normalize_abbreviation(self, text):
 
         def open_abbr(token):
@@ -66,7 +56,7 @@ class Normalization():
 
     def approximate_lexicon(self, text):
 
-        def edit_distance(token):
+        def normalize(token):
             token = token.group(1)
             for error, norm in self.lexicon:
                 if error == token:
@@ -74,7 +64,7 @@ class Normalization():
 
             return token + " "
 
-        return re.sub("([A-Za-zÇİğüş]+\.)\s", edit_distance, text)
+        return re.sub("([A-Za-zÇİğüş]+\.)\s", normalize, text)
 
     def normalize_urls(self,text):
         return re.sub(r"(http(s)*\:\/\/)+(www\.)*([a-z0-9]+)+(\.[a-z]+)+(/[^\s]+)+(/)*","<URL>",text)
@@ -90,9 +80,6 @@ class Normalization():
         need (.)??
         """
         return re.sub(r",|!|\"|\"|\'|\'", "", text) 
-
-    def remove_accent(self,text):
-        return re.sub()
 
     def adapt_newline(self,text):
         text = re.sub("-\n","",text)

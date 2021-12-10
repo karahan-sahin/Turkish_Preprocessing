@@ -15,18 +15,21 @@ class StopwordRemoval():
     def __init__(self, type="lexicon", top_k=100):
         self.top_k = top_k
         self.type = type
-        self.stopwords = []
-        self.corpus = import_corpora(type="stopwords")
-        
-    def remove(self,text):
         
         if self.type == "lexicon":
             self.import_stopwords()
-        else:
-            # This one is the statistical version of stopwords
+        
+        elif type == "custom":
             self.dynamic()
-
-        return [token for token in text if not (token in self.stopwords)]
+        
+        self.corpus = import_corpora(type="stopwords")
+        
+    def remove(self,tokenized_text):
+        """
+        
+        -i
+        """
+        return [token for token in tokenized_text if not (token in self.stopwords)]
 
     def dynamic(self):
         """
@@ -67,5 +70,5 @@ class StopwordRemoval():
         self.stopwords = list(sorted_tfidf.keys())[:self.top_k]
 
 
-    def import_stopwords(self): ## From nltk.stopwords("turkish")
+    def import_stopwords(self):
         self.stopwords = list(open("source/stopwords.txt", 'r', encoding='utf-8').read().split('\n'))
