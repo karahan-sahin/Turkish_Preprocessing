@@ -21,7 +21,7 @@ After cloning the repository, you need to initiate your `virtualenv` and load th
 
 ```bash
 python -m venv toolkit_venv
-source toolkit_venv
+source toolkit_venv/bin/activate
 pip install -r requirements.txt
 ```
 
