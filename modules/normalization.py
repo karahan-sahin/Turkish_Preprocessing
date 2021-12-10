@@ -41,7 +41,7 @@ class Normalization():
         text = self.remove_punctuation(text)
         text = self.MWE_Normalization(text)
         
-        return text
+        return text.lower()
 
     def normalize_abbreviation(self, text):
 
