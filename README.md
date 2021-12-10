@@ -20,12 +20,20 @@ git clone git@github.com:karahan-sahin/Turkish_Preprocessing.git
 After cloning the repository, you need to initiate your `virtualenv` and load the necessary package
 
 ```bash
+cd Turkish_Preprocessing/
 python -m venv toolkit_venv
 source toolkit_venv/bin/activate
 pip install -r requirements.txt
 ```
 
 After that you can go to the initial folder contains the repository folder and use it on your notebook or script 
+
+```bash
+cd ..
+mv Turkish_Preprocessing/example/demo.ipynb -t .
+```
+
+
 
 ## Usage
 
