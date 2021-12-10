@@ -1,0 +1,110 @@
+{
+    "Copula=GenCop": "[td][iıüu]r",
+    "Copula=PastCop": "(y)*[dt][iıuü]",
+    "Copula=EvCop": "(y)*m[iıuü]ş",
+    "Copula=CndCop": "s[ea]",
+    "Copula=CndCop1": "ken",
+    "Possessive=P3pl1": "l[ea]r",
+
+    "Derivation=Rel": "ki",
+
+
+    "Case=Ins": "(y)*l[ea]",
+    "Case=Loc": "(n)*[td][ea]",
+    "Case=Abl": "[td][ea]n",
+    "Case=Gen": "(ıiüu)n",
+    "Possessive=P3pl": "l[ea]r[ıi]",
+
+
+    "Case=Acc": "(y|n|s)*[iuüı]",
+    "Case=Dat": "(y|n)[ea]",
+    "Possessive=P3sg": "(s)*[ıiuü]",
+
+
+    "PersonNumber=V2pl": "[iıüu]n([iıüu]z)",
+    "PersonNumber=V2sg": "(s|n)*[ıiuü]n",
+    "PersonNumber=V3pl": "l[ea]r",
+
+    "Possessive=P2sg": "(s)*[iıüu]n([iıüu]z)$|[iıüu]n",
+
+    
+    "Derivation=Wout1": "s[iıuü]z",
+
+    "Possessive=P2pl": "(s)*[iıüu]n([iıüu]z)*",
+    "Possessive=P1pl": "[ıiuü]m[ıiuü]z",
+    "Possessive=P1sg": "(iıüu)[m]",
+
+    "PersonNumber=V3pl_1": "l[ea]r",
+
+    "TenseAspectMood=Fut": "(y)*[ae]c[ae]k",
+    "NumberType=Dist": "(ş)*[ea]r",
+    "Derivation=Ger_1": "[ea]r[ea]k$|m[ea]d[ea]n",
+    "PersonNumber=V1pl": "(y)*[ıiuü]z$|k",
+    "PersonNumber=V1sg": "[ıiüu]m",
+
+    "Derivation=Acq": "l[ea][n]",
+
+    "TAMII": "[ıiuü]m[ıiuü]ş$|[ıiuü]d[ıiuü]$|[ıiuü]se",
+    "Derivation=PerPart": "m[iıuü]ş",
+    "TenseAspectMood=Prog1": "[iıuü]yor",
+    "TenseAspectMood=Past": "[dt][iıuü]",
+    "TenseAspectMood=Aor": "[ıeaiüu]r",
+    "TenseAspectMood=Desr": "s[ea]",
+    "TenseAspectMood=Nec": "m[ea]l[iı]",
+    "TenseAspectMood=Wish" : "(y|s)[ae]",
+    "TenseAspectMood=Prog2": "m[ae]kt[ea]",
+    "TenseAspectMood=Opt": "[ae][ly][ıi]",
+    "Derivation=Able": "(y)*[ea]bil",
+    "Derivation=Ever": "y*[ea]gel$|y*[ea]dur$|y*[uiüı]ver$|y*[ea]yaz",
+    "Polarity=Neg": "m[eaiı]",
+    "Voice=Cau":  "[td][ıi]r$|[t]",
+    "Voice=Pass": "[iıuü]l$|[iıuü]n",
+    "Voice=Rfx": "[eaiıüu]n",
+    "Derivation=Snd": "(fısıl|ışıl)d[ea]$|(çat|pat)l[ea]",
+    "Derivation=While": "ken",
+    "Derivation=Ger": "[ea]r[ea]k$|m[ea]d[ea]n",
+    "Derivation=As": "[dt][iıuü]k[çc][ea]",
+    "Derivation=When": "[iıüu]nc[ea]",
+    "Derivation=After": "[iıuü]p",
+    "Derivation=Act": "c[ea]",
+    "Derivation=AorNom": "[eaıi]r$|m[ea]z",
+
+    "Derivation=Make": "l[ea]",
+
+    "Derivation=Dim": "[cç][ıiuü][kğ]",
+    "Derivation=Fam": "gil",
+    "Derivation=For":  "l[iıüu][kğ]",
+    "Derivation=Wout": "s[iıuü]z",
+    "Derivation=Doer": "k[ea]n",
+    "Derivation=Aff": "[cç][iıuü]l",
+    "Derivation=Ly": "c[ea]",
+    "Derivation=Since": "[dt][ıü]r",
+    "Derivation=Ness": "l[iıuü][kğ]",
+    "Derivation=Rtd":  "s[ea]l",
+    "Derivation=Bcm":  "l[ea]ş",
+    "Derivation=Inh": "[iıuü]c[iıüu]",
+    "Derivation=With": "l[iıuü]",
+    "Derivation=Agt": "[cç][iıüu]",
+    "Derivation=Coll": "[cç][ea]",
+    "Derivation=Like": "[cç][ea]",
+    "Derivation=Lang": "[cç][ea]",
+    "Derivation=Job": "olog",
+    "Derivation=Sci":"oloji",
+    "Derivation=Doct": "izm",
+    "Derivation=Foll": "ist",
+    "NumberType=Ord": "[iuüı]*nc[iıüu]",
+    "Derivation=By": "l[ea]rc[ea]",
+
+
+    "Derivation=ProNom": "(y)*[ea]s[iı]",
+    "Derivation=FutNom": "(y)*[ae]c[ae][ğk]",
+    "Derivation=PresNom": "(y)*[ea]n",
+    "Derivation=Nonf": "m[ea]$|(y)*[ıüiu]ş",
+    "Derivation=Inf": "m[ea]k",
+    "Derivation=PresPart": "(y)*[ae]n$|[ae]n",
+    "Derivation=PastPart": "[dt][iıuü][kğ]",
+    "Derivation=PastNom": "[dt][iıuü][kğ]",
+    "Derivation=FutPart": "[ae]c[ae][ğk]",
+    "Derivation=PerNom": "m[iıuü]ş"
+
+}
